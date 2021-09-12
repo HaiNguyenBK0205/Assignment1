@@ -1,0 +1,34 @@
+BEGIN
+END
+BEGIN
+INSERT x number
+INSERT y string
+INSERT z string
+ASSIGN x 15
+ASSIGN y '123'
+ASSIGN z y
+END
+BEGIN
+INSERT x number
+BEGIN
+INSERT x number
+INSERT y string
+INSERT z string
+ASSIGN x 15
+ASSIGN y '123'
+ASSIGN z y
+LOOKUP x
+LOOKUP y
+PRINT
+END
+END
+PRINT
+INSERT x number
+INSERT y string
+ASSIGN x 15
+BEGIN
+INSERT y number
+INSERT z string
+RPRINT
+END
+INSERT y string string

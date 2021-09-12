@@ -639,7 +639,10 @@ public:
                     current = current->prev;
                 }
 
-                cout << result << endl;
+                if (!compareString(result, ""))
+                {
+                    cout << result << endl;
+                }
 
                 this->tail->next = temporary;
                 temporary->prev = this->tail;
@@ -705,7 +708,10 @@ public:
                     current = current->prev;
                 }
 
-                cout << result << endl;
+                if (!compareString(result, ""))
+                {
+                    cout << result << endl;
+                }
 
                 this->tail->next = temporary;
                 temporary->prev = this->tail;
